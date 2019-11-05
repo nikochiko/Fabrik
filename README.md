@@ -188,12 +188,6 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
         ```
 
     * Exit psql by typing in \q and hitting enter.
-* Now update settings/dev.py. Change the username from 'postgres' to 'admin' and password from 'postgres' to 'fabrik'
-    The final code should look like this (Lines 13 and 14):
-    ```
-    'USER': os.environ.get("POSTGRES_USER", 'admin'),
-    'PASSWORD': os.environ.get("POSTGRES_PASSWORD", 'fabrik')
-    ```
 
 * Migrate
 
@@ -254,6 +248,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
     ```
     python manage.py runserver
     ```
+
 
 6. Open http://localhost:8000/admin
 

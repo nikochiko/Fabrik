@@ -50,8 +50,8 @@ class ImportPrototxtTest(unittest.TestCase):
                                     {'config': sample_file.read()})
         response = json.loads(response.content)
         self.assertEqual(response['result'], 'error')
-        self.assertEqual(response['error'], 'Invalid Prototxt\n'
-                                            '1:1 : Expected identifier or number, got {.')
+        self.assertEqual(response['error'], "Invalid Prototxt\n"
+                                            "1:1 : '{': Expected identifier or number, got {.")
 
     def test_caffe_import_by_url(self):
         url = 'https://github.com/Cloud-CV/Fabrik/blob/master/example/caffe/All_CNN.prototxt'

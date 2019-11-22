@@ -10,7 +10,7 @@ Fabrik is an online collaborative platform to build, visualize and train deep le
 
 <img src="/example/fabrik_demo.gif?raw=true">
 
-This app is presently under active development and we welcome contributions. Please check out our [issues thread](https://github.com/Cloud-CV/IDE/issues) to find things to work on, or ping us on [Gitter](https://gitter.im/Cloud-CV/IDE).
+This app is presently under active development and we welcome contributions. Please check out our [issues thread](https://github.com/Cloud-CV/Fabrik/issues) to find things to work on, or ping us on [Gitter](https://gitter.im/Cloud-CV/Fabrik).
 
 
 ## Installation Instructions
@@ -103,7 +103,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
     * Change the hostname to ``` localhost ``` in settings/dev.py line 15. It should now look like this:  
 
     ```
-    'HOST': os.environ.get("POSTGRES_HOST", 'localhost'), 
+    'HOST': os.environ.get("POSTGRES_HOST", 'localhost'),
     ```
 
 4. Install redis server  
@@ -158,7 +158,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
 
 * For Mac users
     * [Install Caffe](http://caffe.berkeleyvision.org/install_osx.html)
-    * [Install Tensorflow](https://www.tensorflow.org/install/install_mac)
+    * [Install Tensorflow](https://www.tensorflow.org/install)
     * [Install Keras](https://keras.io/#installation)
 
 6. Install dependencies
@@ -205,7 +205,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
     sudo npm install -g webpack@1.15.0
     ```
 
-    * Run the command below in a separate terminal for hot-reloading, i.e. see the changes made to the UI in real time. 
+    * Run the command below in a separate terminal for hot-reloading, i.e. see the changes made to the UI in real time.
 
     ```
     webpack --progress --watch --colors
@@ -260,7 +260,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
 
     * Choose  the ``` Provider ``` of social application as ``` Github ``` &  name it ``` Github ```.
 
-    * Add the sites available to the right side, so github is allowed for the current site. This should be `localhost:8000` for local deployment.
+    * Add the sites available to the right side, so Github is allowed for the current site. This should be `localhost:8000` for local deployment.
 
     * Copy and paste your ``` Client ID ``` and ``` Secret Key ``` into the appropriate fields and Save.
 

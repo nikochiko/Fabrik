@@ -157,7 +157,7 @@ To install Docker for Mac [click here](https://docs.docker.com/docker-for-mac/in
 
 * For Mac users
     * [Install Caffe](http://caffe.berkeleyvision.org/install_osx.html)
-    * [Install Tensorflow](https://www.tensorflow.org/install)
+    * [Install Tensorflow](https://github.com/tensorflow/docs/blob/r1.4/site/en/install/install_mac.md#installing-with-virtualenv)
     * [Install Keras](https://keras.io/#installation)
 
 6. Install dependencies
